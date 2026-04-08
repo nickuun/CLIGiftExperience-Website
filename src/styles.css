@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas bg-glow bg-no-repeat font-sans text-ink antialiased;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.015) 50%, transparent 50%);
+  background-size: 100% 4px;
+  opacity: 0.24;
+  mix-blend-mode: soft-light;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(127, 227, 161, 0.22);
+  color: #edf3ec;
+}

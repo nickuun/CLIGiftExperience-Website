@@ -172,8 +172,8 @@ export const faqItems = [
 
 export const aboutPoints = [
   {
-    title: 'A one-person studio',
-    copy: 'This is a focused side-hustle studio built around one offer: thoughtful digital gifts that feel crafted rather than mass-produced.',
+    title: 'A small studio',
+    copy: 'This is a focused small studio built around one offer: thoughtful digital gifts that feel crafted rather than mass-produced.',
   },
   {
     title: 'Why terminal-style',
@@ -196,7 +196,7 @@ export const pageIntros = {
   },
   about: {
     eyebrow: 'About the studio',
-    title: 'A thoughtful little studio making playable gift experiences.',
+    title: 'A small creative studio making playable gift experiences.',
     copy: 'This is not an agency and it is not a game studio menu. It is one carefully scoped offer, built to feel personal, polished, and gift-worthy.',
   },
   order: {
